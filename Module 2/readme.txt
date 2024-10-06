@@ -18,17 +18,7 @@ To build the model, we gathered the 7 preceeding days data and averaged them for
 
 We used average price of vegetables not max or min...
 
-### Remove the commodities like fish or any other if error is more than 20%
-### Leave test data for now. Split train data for now into train and test.. or try to merge both of data according to same column of Commodity.
-
-
 We removed 'Fish Fresh', 'Maize', 'Musk Melon' in train data and 'Amla', 'Avocado', 'Sarifa', 'Tree Tomato' in test data, for they were not cohorent with each other.
 
-main3.py is the most accurate till now with 38.07% accuracy. This uses tuning of hyperparameters and vegetable grouping to predict price based on the Commodity values, which wasn't done in the main.py.
-
-Usable: demandpred.py reached 44% accuracy, but predicts demand not price:)
-
-Opt to remove Sentinel data??
-
-### Website
+Usable: demandpred.py reached 44% accuracy, but predicts demand not price.
 
